@@ -1,0 +1,21 @@
+.box {
+    height: 50px;
+    background: red;
+}
+
+header {
+    background: #2C3E50;
+}
+
+main .hero,
+main .about {
+    background: #5CBD9D;
+}
+
+footer .infos {
+    background: #3A546D;
+}
+
+footer .copyright {
+    background: #2C3E50;
+}
