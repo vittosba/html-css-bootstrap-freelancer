@@ -64,6 +64,19 @@ main #portfoglio .image-container img {
 
 }
 
+/* ABOUT */
+.site-btn-outiline-primary {
+    background-color: #5CBD9D;
+    border-color: #fff;
+    color: #fff;
+}
+
+.site-btn-outiline-primary:hover {
+    background-color: #fff;
+    color: #5CBD9D;
+    border-color: #fff;
+}
+
 footer .infos {
     background: #3A546D;
 }
