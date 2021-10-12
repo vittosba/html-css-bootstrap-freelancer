@@ -46,12 +46,22 @@ main .hero img {
     width: 250px;
 }
 
-
-
 main .hero,
 main #about {
     background: #5CBD9D;
     color: #fff;
+}
+
+/* Portfoglio */
+main #portfoglio .image-container {
+    border-radius: 10px;
+}
+
+main #portfoglio .image-container img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+
 }
 
 footer .infos {
