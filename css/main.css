@@ -1,9 +1,25 @@
+
+/* UTILITIES */
 .box {
     height: 50px;
     background: red;
 }
 
-/* MAIN NAVIATION */
+.line {
+    border: 2px solid currentColor;
+    border-radius: 5px;
+    width: calc((100% - 53px) / 2);
+    height: 2px;
+}
+
+.icon {
+    width: 32px;
+    font-size: 2rem;
+    margin-right: 21px;
+}
+
+/* HEADER */
+/* Main Navigation */
 .main-header .site-navbar {
     background: #2C3E50;
 }
@@ -20,13 +36,22 @@
     color: #5CBD9D;
 }
 
+/* MAIN */
+/* Hero */
 main .hero {
     padding-top: 100px;
 }
 
+main .hero img {
+    width: 250px;
+}
+
+
+
 main .hero,
 main #about {
     background: #5CBD9D;
+    color: #fff;
 }
 
 footer .infos {
