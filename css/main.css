@@ -3,12 +3,29 @@
     background: red;
 }
 
-header {
+/* MAIN NAVIATION */
+.main-header .site-navbar {
     background: #2C3E50;
 }
 
+.main-header .site-brand {
+    font-size: 1.5rem;
+}
+
+.main-header .site-navbar a.site-nav-link {
+    color: #fff;
+}
+
+.main-header .site-navbar a.site-nav-link:hover {
+    color: #5CBD9D;
+}
+
+main .hero {
+    padding-top: 100px;
+}
+
 main .hero,
-main .about {
+main #about {
     background: #5CBD9D;
 }
 
@@ -19,3 +36,4 @@ footer .infos {
 footer .copyright {
     background: #2C3E50;
 }
+
