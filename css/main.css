@@ -18,6 +18,21 @@
     margin-right: 21px;
 }
 
+.site-btn-outiline-primary {
+    background-color: #5CBD9D;
+    border-color: #fff;
+    color: #fff;
+}
+
+.site-btn-outiline-primary:hover {
+    background-color: #fff;
+    color: #5CBD9D;
+    border-color: #fff;
+}
+.cl-primary {
+    color: #5CBD9D;
+}
+
 /* HEADER */
 /* Main Navigation */
 .main-header .site-navbar {
@@ -64,17 +79,27 @@ main #portfoglio .image-container img {
 
 }
 
-/* ABOUT */
-.site-btn-outiline-primary {
-    background-color: #5CBD9D;
-    border-color: #fff;
-    color: #fff;
+/* Contact */
+main #contacts form input[type="text"],
+main #contacts form input[type="email"],
+main #contacts form input[type="number"],
+main #contacts form textarea {
+    font-size: 18px;
+    border: 0;
+    border-bottom: 1px solid #aaa;
+    border-radius: 0;
+    height: 60px;
+    padding: 0;
 }
 
-.site-btn-outiline-primary:hover {
-    background-color: #fff;
-    color: #5CBD9D;
-    border-color: #fff;
+main #contacts form textarea {
+    height: 200px;
+    padding: 1rem 0;
+    width: 100%;
+}
+
+main #contacts form ::placeholder {
+    color: #000;
 }
 
 footer .infos {
